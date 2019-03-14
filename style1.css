@@ -5,7 +5,7 @@ body {
   width: 900px;
   margin: 10px auto;
   font-family:'Lato';
-  background-image: url("https://multifiles.pressherald.com/uploads/sites/4/2018/04/baked-raccoon.jpg")
+  background-image: url("map-bg.jpg")
 
 }
 
@@ -17,7 +17,7 @@ nav {
 /* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
 header {
   font-family:'Supermercado One';
-  color:orange
+  color:#5d4037
 }
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
 main {
@@ -33,7 +33,7 @@ section {
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
 h2 {
   margin: 0;
-  color:yellowgreen;
+  color:#6d4c41;
   font-variant: small-caps;
 }
 
@@ -63,6 +63,6 @@ dd {
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {
-  padding: 10px;
-  border: 10px dashed color:violet;
+  padding: 2px;
+  border: 10px dashed color:rosybrown;
 }
